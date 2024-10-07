@@ -1,0 +1,198 @@
+<html>
+ <head>
+  <title>
+   Yoko's Kitchen
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        .header{
+            height: 150px;
+            width: 900px;
+            position: relative;
+       }  
+        .header h1{
+            position:relative;
+            top:-160px;
+            left: 160px;
+            object-fit: cover;
+       }
+       .header h3{
+            position:relative;
+            top:-160px;
+            left: 160px;
+            object-fit: cover;
+       }
+
+        .background-image {
+            width: 1600px;
+            height: 150px;
+            object-fit: cover;
+            margin-top: 0px;
+        }
+
+        .overlay-image {
+            position: absolute;
+            top: 150px;
+            left: 150px;
+            transform: translate(-100%, -36%);
+            width: 150px; 
+            height: 150px;
+            margin-top: -95px;
+        }
+        .nav-link.active {
+            background-color: #2a0afe !important;
+            margin-right: 80px;
+        }
+        .course img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .course h2 {
+            font-size: 18px;
+        }
+
+        .course h3 {
+            color: #e74c3c;
+            font-size: 16px;
+        }
+
+        .course p {
+            font-size: 14px;
+        }
+
+        .sidebar h3 {
+            font-size: 18px;
+            color: #e74c3c;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            
+        }
+
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+    <header> 
+            
+        <div>
+        <img src="../img/background.png" alt="Background Image" class="background-image">
+        <img src="../img/logo.png" alt="Overlay Image" class="overlay-image">
+        </div>
+        <br><br>
+        <h1 class="text">YOKO'S KITCHEN<br></h1>
+        <h3 class="text">JAPANESE COOKING CLASSES</h3> 
+    </header>
+  </div>
+  <nav class="nav nav-pills nav-fill bg-secondary">
+   <a class="nav-item nav-link active" href="#">
+    home</a>
+   <a class="nav-item nav-link" href="#">
+    classes</a>
+   <a class="nav-item nav-link" href="#">
+    catering</a>
+   <a class="nav-item nav-link" href="#">
+    about</a>
+   <a class="nav-item nav-link" href="#">
+    contact</a>
+  </nav>
+  <div class="container mt-4">
+   <div class="row">
+    <div class="col-md-8">
+     <div class="course row mb-4">
+      <div class="col-md-4">
+       <img alt="Bok Choi in a bowl with chopsticks" src="../img/bokchoi.jpg" />
+      </div>
+      <div class="col-md-8">
+       <h2>
+        Japanese Vegetarian
+       </h2>
+       <h3>
+        Five week course in London
+       </h3>
+       <p>
+        A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.
+       </p>
+      </div>
+     </div>
+     <div class="course row mb-4">
+      <div class="col-md-4">
+       <img alt="Teriyaki Sauce in a bowl with a spoon" src="../img/teriyaki.jpg"/>
+      </div>
+      <div class="col-md-8">
+       <h2>
+        Sauces Masterclass
+       </h2>
+       <h3>
+        One day workshop
+       </h3>
+       <p>
+        An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4 sidebar">
+     <h3>
+      Popular Recipes
+     </h3>
+     <ul>
+      <li>
+       <a href="#">
+        Yakitori (grilled chicken)
+       </a>
+      </li>
+      <li>
+       <a href="#">
+        Tsukune (minced chicken patties)
+       </a>
+      </li>
+      <li>
+       <a href="#">
+        Okonomiyaki (savory pancakes)
+       </a>
+      </li>
+      <li>
+       <a href="#">
+        Mizutaki (chicken stew)
+       </a>
+      </li>
+     </ul>
+     <h3>
+      Contact
+     </h3>
+     <p>
+      Yoko's Kitchen
+      <br/>
+      27 Redchurch Street
+      <br/>
+      Shoreditch
+      <br/>
+      London E2 7DP
+     </p>
+    </div>
+   </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ </body>
+</html>
